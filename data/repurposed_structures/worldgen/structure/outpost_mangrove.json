@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "repurposed_structures:outposts/mangrove/base_plates",
+  "size": 11,
+  "biomes": "#repurposed_structures:has_structure/outposts/mangrove",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "start_height": {
+    "absolute": 0
+  },
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:pillager",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ]
+    }
+  },
+  "horizon:start_checks": {
+    "biome_radius": 1
+  },
+  "horizon:piece_limited": {
+    "library": "repurposed",
+    "use_expansion_hack": true
+  },
+  "use_expansion_hack": true
+}

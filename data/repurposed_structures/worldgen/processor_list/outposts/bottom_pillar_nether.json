@@ -1,0 +1,272 @@
+{
+  "processors": [
+    {
+      "rules": [
+        {
+          "output_state": {
+            "id": "minecraft:blackstone"
+          },
+          "input_predicate": {
+            "block": "minecraft:smithing_table",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:netherrack"
+          },
+          "input_predicate": {
+            "block": "minecraft:nether_wart_block",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:netherrack"
+          },
+          "input_predicate": {
+            "block": "minecraft:nether_gold_ore",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:blackstone"
+          },
+          "input_predicate": {
+            "block": "minecraft:gilded_blackstone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:blackstone_wall"
+          },
+          "input_predicate": {
+            "block": "minecraft:blackstone_wall",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:netherrack"
+          },
+          "input_predicate": {
+            "block_state": {
+              "id": "minecraft:crimson_stem",
+              "properties": {
+                "axis": "x"
+              }
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:netherrack"
+          },
+          "input_predicate": {
+            "block_state": {
+              "id": "minecraft:crimson_stem",
+              "properties": {
+                "axis": "z"
+              }
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:netherrack"
+          },
+          "input_predicate": {
+            "block_state": {
+              "id": "minecraft:warped_stem",
+              "properties": {
+                "axis": "x"
+              }
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:netherrack"
+          },
+          "input_predicate": {
+            "block_state": {
+              "id": "minecraft:warped_stem",
+              "properties": {
+                "axis": "z"
+              }
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:warped_fence"
+          },
+          "input_predicate": {
+            "block": "minecraft:warped_fence",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:crimson_fence"
+          },
+          "input_predicate": {
+            "block": "minecraft:crimson_fence",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:nether_brick_fence"
+          },
+          "input_predicate": {
+            "block": "minecraft:nether_brick_fence",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:netherrack"
+          },
+          "input_predicate": {
+            "block": "minecraft:bone_block",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "rules": [
+        {
+          "output_state": {
+            "id": "minecraft:blackstone"
+          },
+          "input_predicate": {
+            "block": "minecraft:blackstone_wall",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:lava",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:nether_bricks"
+          },
+          "input_predicate": {
+            "block": "minecraft:nether_brick_wall",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:lava",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:nether_bricks"
+          },
+          "input_predicate": {
+            "block": "minecraft:nether_brick_fence",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:lava",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:netherrack"
+          },
+          "input_predicate": {
+            "block": "minecraft:crimson_fence",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:lava",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+        {
+          "output_state": {
+            "id": "minecraft:netherrack"
+          },
+          "input_predicate": {
+            "block": "minecraft:warped_fence",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:lava",
+            "predicate_type": "minecraft:block_match"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "processor_type": "minecraft:block_ignore",
+      "blocks": [
+        {
+          "id": "minecraft:air"
+        },
+        {
+          "id": "minecraft:structure_void"
+        },
+        {
+          "id": "minecraft:water"
+        }
+      ]
+    },
+    {
+      "processor_type": "horizon:waterlog_in_world_water"
+    }
+  ]
+}

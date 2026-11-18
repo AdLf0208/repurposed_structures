@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:desert",
+    {
+      "id": "#c:is_desert",
+      "required": false
+    },
+    {
+      "id": "terralith:lush_desert",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:lush_desert",
+      "required": false
+    },
+    {
+      "id": "projectvibrantjourneys:desert_shrubland",
+      "required": false
+    },
+    {
+      "id": "projectvibrantjourneys:verdant_sands",
+      "required": false
+    }
+  ],
+  "remove": [
+    "#repurposed_structures:collections/oceans"
+  ],
+  "fabric:remove": [
+    "#repurposed_structures:collections/oceans"
+  ]
+}

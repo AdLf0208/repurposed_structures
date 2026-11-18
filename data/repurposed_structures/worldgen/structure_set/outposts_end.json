@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "repurposed_structures:outpost_end",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1047041233,
+    "spacing": 61,
+    "separation": 30,
+    "horizon:min_distance_from_world_origin": 1000,
+    "horizon:exclusion_zone": {
+      "other_sets": [
+        "minecraft:end_cities",
+        "repurposed_structures:ancient_cities_end"
+      ],
+      "chunk_count": 5
+    }
+  }
+}

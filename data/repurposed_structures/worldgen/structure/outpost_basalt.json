@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "repurposed_structures:outposts/basalt/base_plates",
+  "size": 11,
+  "biomes": "#repurposed_structures:has_structure/outposts/basalt",
+  "step": "vegetal_decoration",
+  "terrain_adaptation": "beard_box",
+  "start_height": {
+    "absolute": 0
+  },
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:piglin",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ]
+    }
+  },
+  "horizon:piece_limited": {
+    "library": "repurposed",
+    "use_expansion_hack": true,
+    "land_search": "lowest_land"
+  },
+  "use_expansion_hack": true
+}

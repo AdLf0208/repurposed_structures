@@ -1,0 +1,62 @@
+{
+  "structures": [
+    {
+      "structure": "repurposed_structures:outpost_badlands",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_birch",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_desert",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_giant_tree_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_icy",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_mangrove",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_oak",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_savanna",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_snowy",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:outpost_taiga",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 411702122,
+    "spacing": 49,
+    "separation": 24,
+    "horizon:exclusion_zone": {
+      "other_sets": [
+        "repurposed_structures:villages_overworld",
+        "repurposed_structures:villages_mushroom",
+        "minecraft:villages"
+      ],
+      "chunk_count": 5
+    }
+  }
+}

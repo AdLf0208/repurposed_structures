@@ -1,0 +1,10 @@
+id = "repurposed_structures"
+name = "Repurposed Structures (Outposts and Witch Huts)"
+version = "0.1.0"
+description = """Repurposed Structures' outposts (18: overworld, nether, ocean and end) and witch huts (6), carried as worldgen data: structures, structure sets, template pools, processor lists and their 211 structure templates, biome tags and chest loot. A first slice of TelepathicGrunt's mod for Horizon; the other families are not carried yet (see the port's notes.md)."""
+authors = ["TelepathicGrunt (original mod)", "Horizon port: ATM10 campaign"]
+# A content mod: worldgen data, no code (API 0.2).
+api = "0.2"
+side = "both"
+# registries: "May add blocks, items, mob effects and entity types to your worlds".
+capabilities = ["registries"]

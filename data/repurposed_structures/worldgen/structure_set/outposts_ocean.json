@@ -1,0 +1,23 @@
+{
+  "structures": [
+    {
+      "structure": "repurposed_structures:outpost_ocean",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 411702122,
+    "spacing": 67,
+    "separation": 32,
+    "horizon:exclusion_zone": {
+      "other_sets": [
+        "repurposed_structures:villages_overworld",
+        "repurposed_structures:pyramids_overworld",
+        "repurposed_structures:ancient_cities_overworld",
+        "minecraft:ocean_monuments"
+      ],
+      "chunk_count": 5
+    }
+  }
+}
